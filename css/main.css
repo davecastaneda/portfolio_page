@@ -515,49 +515,16 @@ header {
       padding: 2.5rem 7rem; } }
 
 @media screen and (min-width: 870px) and (max-width: 929px) {
-  main {
-    align-items: center;
-    text-align: center; }
-    main .lg-heading {
-      font-size: 4.1rem; }
-    main .sm-heading {
-      font-size: 1.22rem;
-      padding: 0.2rem 0rem; }
-  ul.menu-nav,
-  div.menu-branding {
-    float: none;
-    width: 100%;
-    min-height: 0; }
-    ul.menu-nav.show,
-    div.menu-branding.show {
-      transform: translate3d(0, 0, 0); }
-  .menu-nav {
-    height: 75vh;
-    transform: translate3d(-100%, 0, 0); }
-  .nav-item {
-    margin-bottom: 8%; }
-  .menu .nav-link {
-    font-size: 30px; }
-  .menu-branding {
-    height: 25vh;
-    transform: translate3d(100%, 0, 0); }
-    .menu-branding .portrait {
-      background: url(../img/portrait_small.jpg);
-      width: 156px;
-      height: 156px; }
-  .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
-    grid-template-columns: 1fr; }
-    .about-info .bio-image {
-      background: url(../img/portrait_small.jpg);
-      width: 156px;
-      height: 195px; }
-    .about-info .bio {
-      font-size: 1rem; }
-    .about-info .job {
-      font-size: 0.85rem; }
+  main .lg-heading {
+    font-size: 4.5rem; }
+  main .sm-heading {
+    padding: 0.15rem 0.8rem; }
+  .about-info .bio {
+    font-size: 1rem; }
+  .about-info .job {
+    font-size: 0.85rem; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: repeat(3, 1fr); }
   .boxes {
     display: flex;
     flex-wrap: wrap;
