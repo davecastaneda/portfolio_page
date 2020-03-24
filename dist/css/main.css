@@ -52,9 +52,9 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
+      background: url(../img/portrait_resize.jpg);
       width: 190px;
       height: 216px;
-      background: url(../img/portrait_resize.jpg);
       border-radius: 50%;
       border: solid 3px #06f0ce; }
   .menu .nav-item {
@@ -76,7 +76,7 @@
     transition: all 0.3s ease-out; }
     .menu .nav-link:hover {
       color: #06f0ce;
-      transform: scale(1.45); }
+      transform: scale(1.42); }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -515,6 +515,16 @@ header {
       padding: 2.5rem 7rem; } }
 
 @media screen and (min-width: 870px) and (max-width: 929px) {
+  main .lg-heading {
+    font-size: 4.5rem; }
+  main .sm-heading {
+    padding: 0.15rem 0.8rem; }
+  .about-info .bio {
+    font-size: 1rem; }
+  .about-info .job {
+    font-size: 0.85rem; }
+  .projects {
+    grid-template-columns: repeat(3, 1fr); }
   .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -566,11 +576,9 @@ header {
     height: 75vh;
     transform: translate3d(-100%, 0, 0); }
   .nav-item {
-    display: block;
-    position: inherit;
-    margin-top: 5%;
-    top: -22%;
-    margin-bottom: 10%; }
+    margin-bottom: 8%; }
+  .menu .nav-link {
+    font-size: 30px; }
   .menu-branding {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
@@ -650,11 +658,9 @@ header {
     height: 75vh;
     transform: translate3d(-100%, 0, 0); }
   .nav-item {
-    display: block;
-    position: inherit;
-    margin-top: 5%;
-    top: -22%;
-    margin-bottom: 10%; }
+    margin-bottom: 8%; }
+  .menu .nav-link {
+    font-size: 30px; }
   .menu-branding {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
@@ -731,11 +737,9 @@ header {
     height: 75vh;
     transform: translate3d(-100%, 0, 0); }
   .nav-item {
-    display: block;
-    position: inherit;
-    margin-top: 5%;
-    top: -22%;
-    margin-bottom: 10%; }
+    margin-bottom: 8%; }
+  .menu .nav-link {
+    font-size: 30px; }
   .menu-branding {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }

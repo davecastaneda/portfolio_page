@@ -169,7 +169,7 @@
 }
 
 @include mediaSix {
-  // @import "media_Lg";
+  @import "media_Lg";
   @import "contact_flex";
 
   .boxes {

@@ -29,11 +29,13 @@ div.menu-branding {
 }
 
 .nav-item {
-  display: block;
-  position: inherit;
-  margin-top: 5%;
-  top: -22%;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
+}
+
+.menu {
+  .nav-link {
+    font-size: 30px;
+  }
 }
 
 .menu-branding {
