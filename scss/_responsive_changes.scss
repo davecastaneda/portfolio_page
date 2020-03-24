@@ -1,0 +1,299 @@
+@include mediaMax {
+  @import "contact_grid";
+
+  .email-box {
+    &:hover {
+      padding: 3rem 8.5rem;
+    }
+  }
+
+  .linkedin-box {
+    &:hover {
+      padding: 3rem 7.5rem;
+    }
+  }
+
+  .twitter-box {
+    &:hover {
+      padding: 3rem 12rem;
+    }
+  }
+}
+
+@include mediaOne {
+  @import "contact_grid";
+
+  .email-box {
+    &:hover {
+      padding: 3rem 5.5rem;
+    }
+  }
+
+  .linkedin-box {
+    &:hover {
+      padding: 3rem 4.5rem;
+    }
+  }
+
+  .twitter-box {
+    &:hover {
+      padding: 3rem 9rem;
+    }
+  }
+}
+
+@include mediaTwo {
+  @import "contact_grid";
+
+  .boxes {
+    grid-gap: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .email-box {
+    &:hover {
+      padding: 2.5rem 7.5rem;
+    }
+  }
+
+  .linkedin-box {
+    &:hover {
+      padding: 2.5rem 7rem;
+    }
+  }
+
+  .twitter-box {
+    &:hover {
+      padding: 2.5rem 10rem;
+    }
+  }
+}
+
+@include mediaThree {
+  @import "media_Lg";
+
+  @import "contact_grid";
+
+  .boxes {
+    grid-gap: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .email-box {
+    &:hover {
+      padding: 2.5rem 5.5rem;
+    }
+  }
+
+  .linkedin-box {
+    &:hover {
+      padding: 2.5rem 4.5rem;
+    }
+  }
+
+  .twitter-box {
+    &:hover {
+      padding: 2.5rem 7.5rem;
+    }
+  }
+}
+
+@include mediaFour {
+  @import "media_Lg";
+  @import "contact_flex";
+
+  .boxes {
+    div {
+      margin-right: 2rem;
+      margin-left: 2rem;
+    }
+
+    .email-box {
+      padding: 1.7rem 2.5rem;
+
+      &:hover {
+        padding: 2.5rem 5.5rem;
+      }
+    }
+
+    .linkedin-box {
+      padding: 1.7rem 1.75rem;
+
+      &:hover {
+        padding: 2.5rem 4.5rem;
+      }
+    }
+
+    .twitter-box {
+      padding: 1.7rem 5.2rem;
+
+      &:hover {
+        padding: 2.5rem 8.5rem;
+      }
+    }
+  }
+}
+
+@include mediaFive {
+  @import "media_Lg";
+  @import "contact_flex";
+
+  .boxes {
+    div {
+      margin-right: 2rem;
+    }
+
+    .email-box {
+      padding: 1.7rem 1.5rem;
+
+      &:hover {
+        padding: 2.5rem 4rem;
+      }
+    }
+
+    .linkedin-box {
+      padding: 1.7rem 0.75rem;
+
+      &:hover {
+        padding: 2.5rem 3rem;
+      }
+    }
+
+    .twitter-box {
+      padding: 1.7rem 4.2rem;
+
+      &:hover {
+        padding: 2.5rem 7rem;
+      }
+    }
+  }
+}
+
+@include mediaSix {
+  @import "media_Md";
+  @import "contact_flex";
+
+  .boxes {
+    .email-box {
+      padding: 1.5rem 1.5rem;
+
+      &:hover {
+        padding: 2.5rem 4rem;
+      }
+    }
+
+    .linkedin-box {
+      padding: 1.5rem 0.75rem;
+
+      &:hover {
+        padding: 2.5rem 3rem;
+      }
+    }
+
+    .twitter-box {
+      padding: 1.5rem 4.2rem;
+
+      &:hover {
+        padding: 2.5rem 7rem;
+      }
+    }
+  }
+}
+
+@include mediaSeven {
+  @import "media_Md";
+  @import "contact_flex";
+
+  .boxes {
+    div {
+      margin-right: 4rem;
+      margin-left: 4rem;
+    }
+
+    .email-box {
+      padding: 1.5rem 1.5rem;
+
+      &:hover {
+        padding: 2.5rem 4.5rem;
+      }
+    }
+
+    .linkedin-box {
+      padding: 1.5rem 0.75rem;
+
+      &:hover {
+        padding: 2.5rem 4rem;
+      }
+    }
+
+    .twitter-box {
+      padding: 1.5rem 4.2rem;
+
+      &:hover {
+        padding: 2.5rem 7rem;
+      }
+    }
+  }
+}
+
+@include mediaEight {
+  @import "media_Sm";
+  @import "contact_flex";
+
+  .boxes {
+    .email-box {
+      padding: 1.5rem 1.5rem;
+
+      &:hover {
+        padding: 2.2rem 3.9rem;
+      }
+    }
+
+    .linkedin-box {
+      padding: 1.5rem 0.75rem;
+
+      &:hover {
+        padding: 2.2rem 3rem;
+      }
+    }
+
+    .twitter-box {
+      padding: 1.5rem 4.2rem;
+
+      &:hover {
+        padding: 2.2rem 6.3rem;
+      }
+    }
+  }
+}
+
+@include mediaNine {
+  @import "media_Sm";
+  @import "contact_flex";
+
+  .boxes {
+    .email-box {
+      padding: 1.5rem 0.85rem;
+
+      &:hover {
+        padding: 2rem 3.25rem;
+      }
+    }
+
+    .linkedin-box {
+      padding: 1.5rem 0.3rem;
+
+      &:hover {
+        padding: 2rem 2.5rem;
+      }
+    }
+
+    .twitter-box {
+      padding: 1.5rem 3.7rem;
+
+      &:hover {
+        padding: 2rem 5.9rem;
+      }
+    }
+  }
+}
