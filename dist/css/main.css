@@ -201,21 +201,19 @@ body {
       z-index: -1;
       background: rgba(58, 62, 64, 0.78); }
 
-h1,
+h1 {
+  margin: 0;
+  font-weight: 400; }
+  h1.lg-heading {
+    font-size: 5rem;
+    text-shadow: 0px 3.5px 6.5px 1px rgba(0, 0, 0, 0.3); }
+
 h2,
 h3,
 h4,
 h5 {
   margin: 0;
   font-weight: 300; }
-  h1.lg-heading,
-  h2.lg-heading,
-  h3.lg-heading,
-  h4.lg-heading,
-  h5.lg-heading {
-    font-size: 5rem;
-    text-shadow: 0px 3.5px 6.5px 1px rgba(0, 0, 0, 0.3); }
-  h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading,
   h4.sm-heading,
@@ -559,9 +557,9 @@ header {
     align-items: center;
     text-align: center; }
     main .lg-heading {
-      font-size: 4.1rem; }
+      font-size: 3.5rem; }
     main .sm-heading {
-      font-size: 1.22rem;
+      font-size: 1rem;
       padding: 0.2rem 0rem; }
   ul.menu-nav,
   div.menu-branding {
@@ -572,14 +570,14 @@ header {
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
-    height: 75vh;
+    height: 67vh;
     transform: translate3d(-100%, 0, 0); }
   .nav-item {
-    margin-bottom: 8%; }
+    margin-bottom: 2%; }
   .menu .nav-link {
-    font-size: 30px; }
+    font-size: 25px; }
   .menu-branding {
-    height: 25vh;
+    height: 33vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url(../img/portrait_small.jpg);
@@ -635,12 +633,15 @@ header {
   main {
     align-items: center;
     text-align: center;
-    padding: 1rem; }
+    padding: 3rem; }
     main #home h1 {
       margin-top: 5vh; }
     main .lg-heading {
-      margin-bottom: 0.1rem;
-      font-size: 4rem; }
+      font-size: 3.5rem;
+      margin-bottom: 0.1rem; }
+    main .sm-heading {
+      font-size: 1rem;
+      padding: 0.1rem 0rem; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -650,14 +651,12 @@ header {
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
-    height: 70vh;
+    height: 67vh;
     transform: translate3d(-100%, 0, 0); }
-  .nav-item {
-    margin-bottom: 2%; }
   .menu .nav-link {
-    font-size: 30px; }
+    font-size: 25px; }
   .menu-branding {
-    height: 30vh;
+    height: 33vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url(../img/portrait_small.jpg);
@@ -712,12 +711,15 @@ header {
   main {
     align-items: center;
     text-align: center;
-    padding: 1rem; }
+    padding: 3rem; }
     main #home h1 {
       margin-top: 5vh; }
     main .lg-heading {
-      margin-bottom: 0.1rem;
-      font-size: 4rem; }
+      font-size: 3.5rem;
+      margin-bottom: 0.1rem; }
+    main .sm-heading {
+      font-size: 1rem;
+      padding: 0.1rem 0rem; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -727,14 +729,12 @@ header {
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
-    height: 70vh;
+    height: 67vh;
     transform: translate3d(-100%, 0, 0); }
-  .nav-item {
-    margin-bottom: 2%; }
   .menu .nav-link {
-    font-size: 30px; }
+    font-size: 25px; }
   .menu-branding {
-    height: 30vh;
+    height: 33vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url(../img/portrait_small.jpg);

@@ -1,7 +1,8 @@
 main {
   align-items: center;
   text-align: center;
-  padding: 1rem;
+  padding: 3rem;
+  // padding: 0rem;
 
   #home h1 {
     margin-top: 5vh;
@@ -9,14 +10,14 @@ main {
 
   .lg-heading {
     // margin-top: 0.5rem;
+    font-size: 3.5rem;
     margin-bottom: 0.1rem;
-    font-size: 4rem;
   }
 
-  // .sm-heading {
-  //   font-size: 1.3rem;
-  //   padding: 0.1rem 0rem;
-  // }
+  .sm-heading {
+    font-size: 1rem;
+    padding: 0.1rem 0rem;
+  }
 }
 
 ul.menu-nav,
@@ -31,23 +32,23 @@ div.menu-branding {
 }
 
 .menu-nav {
-  height: 70vh;
+  height: 67vh;
   transform: translate3d(-100%, 0, 0);
 }
 
-.nav-item {
-  // margin-bottom: 8%;
-  margin-bottom: 2%;
-}
+// .nav-item {
+//   margin-bottom: 8%;
+//   margin-bottom: 2%;
+// }
 
 .menu {
   .nav-link {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
 .menu-branding {
-  height: 30vh;
+  height: 33vh;
   transform: translate3d(100%, 0, 0);
 
   .portrait {

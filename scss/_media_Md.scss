@@ -3,11 +3,13 @@ main {
   text-align: center;
 
   .lg-heading {
-    font-size: 4.1rem;
+    // font-size: 4.1rem;
+    font-size: 3.5rem;
   }
 
   .sm-heading {
-    font-size: 1.22rem;
+    // font-size: 1.22rem;
+    font-size: 1rem;
     padding: 0.2rem 0rem;
   }
 }
@@ -24,22 +26,23 @@ div.menu-branding {
 }
 
 .menu-nav {
-  height: 75vh;
+  height: 67vh;
   transform: translate3d(-100%, 0, 0);
 }
 
 .nav-item {
-  margin-bottom: 8%;
+  // margin-bottom: 8%;
+  margin-bottom: 2%;
 }
 
 .menu {
   .nav-link {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
 .menu-branding {
-  height: 25vh;
+  height: 33vh;
   transform: translate3d(100%, 0, 0);
 
   .portrait {
