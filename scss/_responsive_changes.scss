@@ -239,6 +239,10 @@
   @import "media_Sm";
   @import "contact_flex";
 
+  div {
+    font-size: 1rem;
+  }
+
   .boxes {
     .email-box {
       padding: 1.5rem 1.5rem;
@@ -271,6 +275,10 @@
   @import "contact_flex";
 
   .boxes {
+    div {
+      font-size: 0.8rem;
+      // font-size: 0.2rem;
+    }
     .email-box {
       padding: 1.5rem 0.85rem;
 
