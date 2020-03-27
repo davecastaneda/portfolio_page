@@ -92,12 +92,11 @@
 
 main {
   padding: 4rem;
-  height: 100%;
   min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
-      padding: 0.4rem;
+      padding: 0.45rem;
       transition: all 0.3s ease-out; }
       main .icons a:hover {
         color: #06f0ce; }
@@ -443,12 +442,12 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 3.5rem; }
+    margin-top: 3rem; }
     .boxes div {
       font-size: 1rem;
       border: 2px #fff solid;
       border-radius: 9px;
-      margin-bottom: 2.65rem;
+      margin-bottom: 2.3rem;
       transition: all 0.3s ease-out; }
       .boxes div:hover {
         background: #06f0ce;
@@ -487,12 +486,12 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 3.5rem; }
+    margin-top: 3rem; }
     .boxes div {
       font-size: 1rem;
       border: 2px #fff solid;
       border-radius: 9px;
-      margin-bottom: 2.65rem;
+      margin-bottom: 2.3rem;
       transition: all 0.3s ease-out; }
       .boxes div:hover {
         background: #06f0ce;
@@ -530,12 +529,12 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 3.5rem; }
+    margin-top: 3rem; }
     .boxes div {
       font-size: 1rem;
       border: 2px #fff solid;
       border-radius: 9px;
-      margin-bottom: 2.65rem;
+      margin-bottom: 2.3rem;
       transition: all 0.3s ease-out; }
       .boxes div:hover {
         background: #06f0ce;
@@ -604,12 +603,12 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 3.5rem; }
+    margin-top: 3rem; }
     .boxes div {
       font-size: 1rem;
       border: 2px #fff solid;
       border-radius: 9px;
-      margin-bottom: 2.65rem;
+      margin-bottom: 2.3rem;
       transition: all 0.3s ease-out; }
       .boxes div:hover {
         background: #06f0ce;
@@ -636,16 +635,12 @@ header {
   main {
     align-items: center;
     text-align: center;
-    padding: 2rem; }
+    padding: 1rem; }
     main #home h1 {
-      margin-top: 10vh; }
+      margin-top: 5vh; }
     main .lg-heading {
-      margin-top: 0.5rem;
-      margin-bottom: 0.5rem;
-      font-size: 3.7rem; }
-    main .sm-heading {
-      font-size: 1.5rem;
-      padding: 0.2rem 0rem; }
+      margin-bottom: 0.1rem;
+      font-size: 4rem; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -655,14 +650,14 @@ header {
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
-    height: 75vh;
+    height: 70vh;
     transform: translate3d(-100%, 0, 0); }
   .nav-item {
-    margin-bottom: 8%; }
+    margin-bottom: 2%; }
   .menu .nav-link {
     font-size: 30px; }
   .menu-branding {
-    height: 25vh;
+    height: 30vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url(../img/portrait_small.jpg);
@@ -686,18 +681,20 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 3.5rem; }
+    margin-top: 3rem; }
     .boxes div {
       font-size: 1rem;
       border: 2px #fff solid;
       border-radius: 9px;
-      margin-bottom: 2.65rem;
+      margin-bottom: 2.3rem;
       transition: all 0.3s ease-out; }
       .boxes div:hover {
         background: #06f0ce;
         color: #000; }
         .boxes div:hover span {
           color: #000; }
+  div {
+    font-size: 1rem; }
   .boxes .email-box {
     padding: 1.5rem 1.5rem; }
     .boxes .email-box:hover {
@@ -715,16 +712,12 @@ header {
   main {
     align-items: center;
     text-align: center;
-    padding: 2rem; }
+    padding: 1rem; }
     main #home h1 {
-      margin-top: 10vh; }
+      margin-top: 5vh; }
     main .lg-heading {
-      margin-top: 0.5rem;
-      margin-bottom: 0.5rem;
-      font-size: 3.7rem; }
-    main .sm-heading {
-      font-size: 1.5rem;
-      padding: 0.2rem 0rem; }
+      margin-bottom: 0.1rem;
+      font-size: 4rem; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -734,14 +727,14 @@ header {
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
-    height: 75vh;
+    height: 70vh;
     transform: translate3d(-100%, 0, 0); }
   .nav-item {
-    margin-bottom: 8%; }
+    margin-bottom: 2%; }
   .menu .nav-link {
     font-size: 30px; }
   .menu-branding {
-    height: 25vh;
+    height: 30vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url(../img/portrait_small.jpg);
@@ -765,18 +758,20 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 3.5rem; }
+    margin-top: 3rem; }
     .boxes div {
       font-size: 1rem;
       border: 2px #fff solid;
       border-radius: 9px;
-      margin-bottom: 2.65rem;
+      margin-bottom: 2.3rem;
       transition: all 0.3s ease-out; }
       .boxes div:hover {
         background: #06f0ce;
         color: #000; }
         .boxes div:hover span {
           color: #000; }
+  .boxes div {
+    font-size: 0.8rem; }
   .boxes .email-box {
     padding: 1.5rem 0.85rem; }
     .boxes .email-box:hover {
